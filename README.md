@@ -100,7 +100,7 @@ by CVE-2020-14372, CVE-2020-25632, CVE-2020-25647, CVE-2020-27749,
   ( July 2020 grub2 CVE list + March 2021 grub2 CVE list )
   grub2 builds ?
 -------------------------------------------------------------------------------
-[This is first time submission of shim using shim 15.04]
+[This is first time submission of shim using shim 15.4]
 
 -------------------------------------------------------------------------------
 If your boot chain of trust includes linux kernel, is

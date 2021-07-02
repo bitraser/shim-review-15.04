@@ -60,7 +60,7 @@ the appropriate gnu-efi source.
 -------------------------------------------------------------------------------
 URL for a repo that contains the exact code which was built to get this binary:
 -------------------------------------------------------------------------------
-[https://github.com/rhboot/shim/releases/download/15.4/shim-15.4.tar.bz2]
+[https://github.com/bitraser/shim/tree/shim-15.4]
 
 -------------------------------------------------------------------------------
 What patches are being applied and why:
@@ -73,7 +73,7 @@ If bootloader, shim loading is, GRUB2: is CVE-2020-14372, CVE-2020-25632,
  CVE-2020-10713, CVE-2020-14308, CVE-2020-14309, CVE-2020-14310, CVE-2020-14311,
  CVE-2020-15705, and if you are shipping the shim_lock module CVE-2021-3418
 -------------------------------------------------------------------------------
-[using grub 2.06~rc1 as above vulnerability is fixed on this version]
+[using grub 2.06 as above vulnerability is fixed on this version]
 
 
 -------------------------------------------------------------------------------
@@ -137,7 +137,7 @@ If the shim binaries can't be reproduced using the provided Dockerfile, please e
 -------------------------------------------------------------------------------
 Which files in this repo are the logs for your build?   This should include logs for creating the buildroots, applying patches, doing the build, creating the archives, etc.
 -------------------------------------------------------------------------------
-[https://github.com/bitraser/BitRaser-shim-15.04/blob/main/build.log]
+[https://github.com/bitraser/shim-review-15.4/blob/BitRaserOS-shim-15.4/build.log]
 
 -------------------------------------------------------------------------------
 Add any additional information you think we may need to validate this shim

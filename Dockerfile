@@ -1,6 +1,6 @@
 FROM	archlinux:base-devel-20210627.0.27153
 
-LABEL MAINTAINER 	BitRaser <os _DOT_ bitraser _AT_ stellarinfo _DOT_ com>
+LABEL MAINTAINER 	BitRaser <bitraser _DOT_ os _AT_ stellarinfo _DOT_ com>
 
 LABEL VERSION ="1.0"
 

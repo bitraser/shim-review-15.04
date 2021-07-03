@@ -60,7 +60,7 @@ the appropriate gnu-efi source.
 -------------------------------------------------------------------------------
 URL for a repo that contains the exact code which was built to get this binary:
 -------------------------------------------------------------------------------
-[https://github.com/bitraser/shim/tree/shim-15.4]
+[https://github.com/bitraser/shim/tree/bitraser-shim15-4]
 
 -------------------------------------------------------------------------------
 What patches are being applied and why:

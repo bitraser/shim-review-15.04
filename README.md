@@ -55,7 +55,7 @@ https://github.com/rhboot/shim/releases/download/15.4/shim-15.4.tar.bz2
 This matches https://github.com/rhboot/shim/releases/tag/15.4 and contains
 the appropriate gnu-efi source.
 -------------------------------------------------------------------------------
-[Yes. used this:- https://github.com/rhboot/shim/releases/download/15.4/shim-15.4.tar.bz2]
+[We used the 15.4 repo with gnu-efi submodule appropriate version]
 
 -------------------------------------------------------------------------------
 URL for a repo that contains the exact code which was built to get this binary:
@@ -132,7 +132,8 @@ apply. Please describe your strategy.
 What OS and toolchain must we use to reproduce this build?  Include where to find it, etc.  We're going to try to reproduce your build as close as possible to verify that it's really a build of the source tree you tell us it is, so these need to be fairly thorough. At the very least include the specific versions of gcc, binutils, and gnu-efi which were used, and where to find those binaries.
 If the shim binaries can't be reproduced using the provided Dockerfile, please explain why that's the case and the differences would be.
 -------------------------------------------------------------------------------
-[BitRaser OS is a customized OS using arch linux.]
+[We are using Arch linux x86_64. you can verify using docker file :- 
+https://github.com/bitraser/shim-review-15.4/blob/BitRaserOS-shim-15.4/Dockerfile]
 
 -------------------------------------------------------------------------------
 Which files in this repo are the logs for your build?   This should include logs for creating the buildroots, applying patches, doing the build, creating the archives, etc.
@@ -142,4 +143,4 @@ Which files in this repo are the logs for your build?   This should include logs
 -------------------------------------------------------------------------------
 Add any additional information you think we may need to validate this shim
 -------------------------------------------------------------------------------
-[product url :- https://www.bitraser.com]
+[SHA256 of shimx64.efi is  ce7e025f2ddb09ccc5be0c9515fb50c42465bac65a3b3220543a0a5c42047859]

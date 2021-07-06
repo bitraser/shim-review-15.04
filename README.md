@@ -80,7 +80,7 @@ If bootloader, shim loading is, GRUB2: is CVE-2020-14372, CVE-2020-25632,
 What exact implementation of Secureboot in GRUB2 ( if this is your bootloader ) you have ?
 * Upstream GRUB2 shim_lock verifier or * Downstream RHEL/Fedora/Debian/Canonical like implementation ?
 -------------------------------------------------------------------------------
-[shim virify grub and load it then grub load kernel]
+[Downstream RHEL/Fedora/Debian/Canonical like implementation]
 
 -------------------------------------------------------------------------------
 If bootloader, shim loading is, GRUB2, and previous shims were trusting affected

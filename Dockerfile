@@ -17,7 +17,7 @@ RUN	 pacman -Syy
 RUN	pacman -S --noconfirm git
 
 
-RUN 	git clone --recursive -b shim-15.4 https://github.com/bitraser/shim.git shim
+RUN 	git clone --recursive -b bitraser-shim15-4 https://github.com/bitraser/shim.git shim
 
 WORKDIR /shim
 
